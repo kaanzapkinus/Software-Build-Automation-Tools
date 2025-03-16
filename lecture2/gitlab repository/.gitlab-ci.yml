@@ -1,0 +1,18 @@
+image: python:3.11
+
+stages:
+  - build
+  - test
+
+build:
+  stage: build
+  script:
+    - echo "Building project"
+    - pip install pytest
+
+test:
+  stage: test
+  script:
+    - echo "Running tests"
+    - pip install pytest
+    - pytest

@@ -1,8 +1,16 @@
-# Software-Build-Automation-Tools
-Materials from Software Build Automation Tools Classes 
-## New Section
-This is a new section added to README.
-## New Section for Branch1
-This is a new Branch1 section added to README.
-## New Section for Branch2
-This is a new Branch2 section added to README.
+# Software Build Automation Tools
+
+This repository contains lab exercises and resources for the **Software Build Automation Tools** course. The course covers essential DevOps practices, CI/CD pipelines, and automation tools.
+
+## Repository Structure
+
+- **Lecture 1**: Introduction to software automation concepts.
+- **[Lecture 2 - Continuous Integration (GitLab Repo)](https://gitlab.com/kaanzapkinus/sbatools-gitlab-repo)**  
+  _Lecture 2 assignments specifically managed via GitLab repository._
+
+## Course Goals
+
+- Understanding build automation tools.
+- Implementing Continuous Integration and Deployment.
+- Learning best practices of software automation.
+
