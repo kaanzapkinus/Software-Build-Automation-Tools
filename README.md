@@ -1,16 +1,39 @@
 # Software Build Automation Tools
 
-This repository contains lab exercises and resources for the **Software Build Automation Tools** course. The course covers essential DevOps practices, CI/CD pipelines, and automation tools.
+This repository contains lab exercises and solutions for the course **Software Build Automation Tools** by PhD Hubert Zarzycki. The course focused on version control systems, automation, CI/CD pipelines, testing practices, and modern DevOps workflows using tools like Git, GitHub, GitLab, SVN, and pytest.
 
-## Repository Structure
+## Repository Structure (Week by Week)
 
-- **Lecture 1**: Introduction to software automation concepts.
-- **[Lecture 2 - Continuous Integration (GitLab Repo)](https://gitlab.com/kaanzapkinus/sbatools-gitlab-repo)**  
-  _Lecture 2 assignments specifically managed via GitLab repository._
+### [Week 1 – Git Basics & Automation](lecture1/)
+Topic: Git fundamentals, branching, merging, conflicts, Git hooks, and intro to GitHub Actions.
+
+### [Week 2 – Continuous Integration with GitLab](https://gitlab.com/kaanzapkinus/sbatools-gitlab-repo)
+Topic: GitLab CI/CD pipelines with stages for build, test, and deployment.
+
+### [Week 3 – Version Control with Subversion (SVN)](lecture3/)
+Topic: Centralized version control using SVN with Assembla, branching, merging, and tagging.
+
+### [Week 4 – Git & CI/CD in PyCharm](lecture4/)
+Topic: Managing Git version control via PyCharm, integrating with GitHub and configuring GitHub Actions.
+
+### [Week 5 – Automated Testing with Pytest](lecture5/)
+Topic: Writing pytest tests, fixtures, parameterization, and GitHub Actions integration.
+
+### [Week 6 – Advanced Git & GitHub Actions](lecture6/)
+Topic: Git Flow, trunk-based development, automated releases, and linting via Black and Flake8.
 
 ## Course Goals
+- Master version control with Git and SVN
+- Build and monitor CI/CD pipelines (GitHub Actions, GitLab CI)
+- Write and automate unit tests using pytest
+- Improve software quality through automated linting, testing, and release workflows
 
-- Understanding build automation tools.
-- Implementing Continuous Integration and Deployment.
-- Learning best practices of software automation.
+## Getting Started
+1. Clone this repository.
+2. Navigate to any `lectureX/` directory for that week's content.
+3. Review the workflow files in `.github/workflows/` for CI/CD pipelines.
+
+---
+
+> This README summarizes and documents all six weeks of practical lab work. For full details, see each week's directory and source files.
 
