@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 .DS_Store
 __pycache__/
 *.pyc
 .venv/
 .idea/
+=======
+lecture1/clone/
+>>>>>>> feature-hotfix
