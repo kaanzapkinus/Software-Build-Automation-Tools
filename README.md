@@ -28,12 +28,4 @@ Topic: Git Flow, trunk-based development, automated releases, and linting via Bl
 - Write and automate unit tests using pytest
 - Improve software quality through automated linting, testing, and release workflows
 
-## Getting Started
-1. Clone this repository.
-2. Navigate to any `lectureX/` directory for that week's content.
-3. Review the workflow files in `.github/workflows/` for CI/CD pipelines.
-
----
-
-> This README summarizes and documents all six weeks of practical lab work. For full details, see each week's directory and source files.
 
